@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const PlaylistPageContainer = styled.div`
   padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 `;
 
 export const PlaylistHeader = styled.h1`

@@ -8,9 +8,12 @@ const Header = () => {
   return (
     <HeaderContainer>
       <HeaderContent>
-        <h1>MyTunes</h1>
+        <Link to="/">
+          <h1>MyTunes</h1>
+        </Link>
         <NavMenu>
           <Link to="/">Home</Link>
+          <Link to="/artists">Artistas</Link>
           <Link to="/myPlaylist">♫ {playlist.length}</Link>
         </NavMenu>
       </HeaderContent>
