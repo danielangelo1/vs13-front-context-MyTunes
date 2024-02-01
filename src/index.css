@@ -24,8 +24,10 @@ h1 {
   padding: 0;
 }
 
-BODY {
+body {
   position: relative;
+  min-height: 100vh;
+  /* height: 100vh; */
 }
 
 @media (prefers-color-scheme: light) {

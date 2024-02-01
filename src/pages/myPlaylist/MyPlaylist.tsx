@@ -9,6 +9,7 @@ import {
   PlaylistPageContainer,
 } from "./styles";
 import { TracksProps } from "../../components/trackCards/TrackCards";
+import Footer from "../../components/footer/Footer";
 
 const MyPlaylist = () => {
   const { playlist, setPlaylist } = useContext(PlaylistContext);
@@ -46,6 +47,7 @@ const MyPlaylist = () => {
         )) ||
           "Sua playlist está vazia. Adicione músicas! "}
       </PlaylistPageContainer>
+      <Footer />
     </>
   );
 };

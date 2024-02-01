@@ -12,7 +12,7 @@ const Header = () => {
           <h1>MyTunes</h1>
         </Link>
         <NavMenu>
-          <Link to="/">Home</Link>
+          <Link to="/sobre">Sobre</Link>
           <Link to="/artists">Artistas</Link>
           <Link to="/myPlaylist">♫ {playlist.length}</Link>
         </NavMenu>
