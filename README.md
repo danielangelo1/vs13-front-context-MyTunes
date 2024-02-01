@@ -1,30 +1,74 @@
-# React + TypeScript + Vite
+# MyTunes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição
 
-Currently, two official plugins are available:
+O MyTunes é uma aplicação que exibe uma lista de faixas musicais populares e artistas. Ele utiliza a API de Last.fm para buscar as faixas mais tocadas e as apresenta em um layout de cartões, cada um mostrando o nome da faixa, o artista e a capa do álbum (_API ESTÁ COM PROBLEMA, NÃO ESTÁ RETORNANDO CORRETAMENTE AS IMAGENS_).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Além disso, é possível adicionar uma música a playlist, limpar a playlist e deletar uma música da playlist, isso é feito pela manipulação do estado global da aplicação com o Context API.
 
-## Expanding the ESLint configuration
+## Funcionalidades
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Busca e exibe as faixas mais populares.
+- Mostra o nome da faixa, o artista e a capa do álbum.
+- Adiciona uma música a playlist, também é possivel limpar ou deletar uma música
+- Busca e exibe os artistas mais populares.
+- Mostra o nome da cantor, numero de ouvintes e quantidades de plays.
+- Integração com a API de Last.fm.
 
-- Configure the top-level `parserOptions` property like this:
+## Tecnologias Utilizadas
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
-    project: ["./tsconfig.json", "./tsconfig.node.json"],
-    tsconfigRootDir: __dirname,
-  },
-};
-```
+- React (with Vite)
+- TypeScript
+- Styled-Components
+- React-Toastify
+- Last.FM API
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Instalação e Execução
+
+Para rodar o projeto em sua máquina local, siga os passos abaixo:
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/danielangelo1/vs13-front-context-MyTunes
+   ```
+
+2. Instale as dependências:
+
+   ```bash
+   cd vs13-front-context-MyTunes
+   npm install
+   ```
+
+3. Execute o projeto:
+
+   ```bash
+   npm run dev
+   ```
+
+## Uso
+
+# Paginas
+
+1. Home
+
+   - Exibe as faixas mais populares.
+   - Adiciona uma música a playlist.
+
+2. Sobre
+
+   - Exibe informações sobre o projeto.
+
+3. Artistas
+
+   - Exibe os artistas mais populares.
+
+4. Minha Playlist
+
+   - Exibe as músicas adicionadas a playlist.
+   - Limpa a playlist.
+   - Deleta uma música da playlist.
+
+##
+
+Feito com ❤ por Daniel
