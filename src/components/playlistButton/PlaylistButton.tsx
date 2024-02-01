@@ -18,9 +18,13 @@ const PlaylistButton = ({ track }: AddToPlaylistButtonProps) => {
 
     if (!isTrackInPlaylist) {
       setPlaylist([...playlist, track]);
-      toast.success("Música adicionada à playlist");
+      toast.success("Música adicionada à playlist", {
+        autoClose: 500,
+      });
     } else {
-      toast.error("Essa música já está na sua playlist");
+      toast.error("Essa música já está na sua playlist", {
+        autoClose: 500,
+      });
     }
   };
 
