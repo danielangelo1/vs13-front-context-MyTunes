@@ -17,7 +17,7 @@ export const StyledButton = styled.button`
   }
 
   @media (max-width: 768px) {
-    padding: 5px 10px;.
+    padding: 5px 10px;
   }
 `;
 

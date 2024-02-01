@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { HeaderContainer, HeaderContent, NavMenu } from "./styles";
 import { PlaylistContext } from "../../context/PlaylistContext";
 import { Link } from "react-router-dom";

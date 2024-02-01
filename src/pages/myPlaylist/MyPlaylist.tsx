@@ -8,11 +8,12 @@ import {
   PlaylistItem,
   PlaylistPageContainer,
 } from "./styles";
+import { TracksProps } from "../../components/trackCards/TrackCards";
 
 const MyPlaylist = () => {
   const { playlist, setPlaylist } = useContext(PlaylistContext);
 
-  const handleDeletetrack = (trackToDelete) => {
+  const handleDeletetrack = (trackToDelete: TracksProps) => {
     const newPlaylist = playlist.filter(
       (track) => track.name !== trackToDelete.name,
     );
