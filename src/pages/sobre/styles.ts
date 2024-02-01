@@ -17,5 +17,9 @@ export const AboutContent = styled.div`
   p {
     font-size: 1.5rem;
     color: white;
+
+    @media (max-width: 768px) {
+      font-size: 1rem;
+    }
   }
 `;

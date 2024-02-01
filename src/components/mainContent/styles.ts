@@ -3,5 +3,8 @@ import { MainContentProps } from "./MainContent";
 
 export const MainContentContainer = styled.main<MainContentProps>`
   max-width: 1200px;
-  margin: 2rem auto;
+  flex: 1;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 `;

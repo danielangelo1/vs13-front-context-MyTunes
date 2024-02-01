@@ -7,7 +7,6 @@ export const PlaylistPageContainer = styled.div`
 `;
 
 export const PlaylistHeader = styled.h1`
-  font-size: 24px;
   margin-bottom: 20px;
 `;
 
