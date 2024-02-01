@@ -35,6 +35,7 @@ export const TrackName = styled.h3`
   color: #a200fa;
   margin: 0 0 10px 0;
   text-align: center;
+  font-weight: 700;
 `;
 
 export const ArtistName = styled.p`
@@ -46,4 +47,5 @@ export const ArtistName = styled.p`
 export const TrackImage = styled.img`
   border-radius: 5px;
   width: 100%;
+  object-fit: cover;
 `;

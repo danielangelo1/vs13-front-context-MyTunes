@@ -5,7 +5,7 @@ export const FooterContainer = styled.footer`
   color: white;
   padding: 20px 0;
   text-align: center;
-  position: absolute;
+  position: sticky;
   margin-top: 5rem;
   bottom: 0;
   width: 100%;
