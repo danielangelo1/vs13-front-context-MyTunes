@@ -55,7 +55,7 @@ const TrackCards = () => {
             <TrackName>{track.name}</TrackName>
             <ArtistName>{track.artist.name}</ArtistName>
             <TrackImage
-              src={track.image.find((img) => img.size === "medium")["#text"]}
+              src={track.image.find((img) => img.size === "medium")?.["#text"]}
               alt={`${track.name} cover`}
             />
             <PlaylistButton track={track} />
